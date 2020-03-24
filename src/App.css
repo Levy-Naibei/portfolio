@@ -66,6 +66,49 @@
   color: #599fd9;
 }
 
+.prof {
+  margin-right: 0.5rem;
+}
+
+.skills {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.skills li {
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightcyan;
+  padding: 0.25rem;
+  margin: 0.5rem;
+  border-radius: 5px;
+  border-width: 0.25rem;
+  width: 130px;
+}
+
+.project {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.project-container {
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem;
+  margin: 1rem;
+  border-radius: 5px;
+   
+}
+
+.project-container img {
+  width: 400px;
+}
+
+.project-container figcaption {
+  color: black;
+}
+
 
 /* .App {
   text-align: center;

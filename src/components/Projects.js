@@ -1,14 +1,44 @@
 import React, { Component } from 'react'
+import blog from '../assets/blog.png';
+import e_store from '../assets/e_store.png';
+import fe from '../assets/fe.png';
 
 export default class Projects extends Component {
+
     render() {
         return (
             <div>
-                 <h3 className='display-none'>Projects</h3>
-                <p>The one common onsite interview round is a whiteboard challenge.
-                     Companies like Google had four whiteboard challenges on the day of the onsite interview which can take a toll on your 
-                    thought process and have you brain-fried for the rest of the day.</p>
-                
+                <div className='row'>
+                    <div className='project'>
+                        <figure className='project-container'>
+                            <img src={fe} alt='Farmers Edge' />
+                            <figcaption>
+                                https://farmers-edge.netlify.app/
+                            </figcaption>
+                        </figure>
+
+                        <figure className='project-container'>
+                            Jobs Portal - Alleviating unemployment
+                            <figcaption>
+                                https://coders-jobs.netlify.app/
+                            </figcaption>
+                        </figure>
+
+                        <figure className='project-container'>
+                            <img src={e_store} alt='screenshot' />
+                            <figcaption>
+                                https://dynamic-e-store.netlify.app/
+                            </figcaption>
+                        </figure>
+
+                        <figure className='project-container'>
+                            <img src={blog} alt='screenshot' />
+                            <figcaption>
+                                https://techies-blog.herokuapp.com/
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
             </div>
         )
     }

@@ -3,13 +3,18 @@ import React, { Component } from 'react'
 export default class Profile extends Component {
     render() {
         return (
-            <div>
-                 <h3 className='display-none'>Profile details</h3>
-                <p>The one common onsite interview round is a whiteboard challenge.
-                     Companies like Google had four whiteboard challenges on the day of the onsite interview which can take a toll on your 
-                    thought process and have you brain-fried for the rest of the day.</p>
+            <div >
+                <p className='lead'>
+                    Creative and people-oriented Software Engineer
+                    with experience and proficiency in production grade software
+                </p>
+                <div>
+                    <p><i class="fas fa-phone-alt prof"></i> +254710311897</p>
+                    <p><i class="fas fa-envelope prof"></i>levynaibei2@gmail.com</p>
+                    <p><small><cite title="Nairobi, Kenya"><i class="fas fa-map-marker-alt prof"></i>Nairobi, Kenya</cite></small></p>
+                    <p><i class="fab fa-github prof text-dark"></i><a href="https://github.com/Levy-Naibei" className='text-light'>Github</a></p>
+                </div>
             </div>
-
         )
     }
 }
