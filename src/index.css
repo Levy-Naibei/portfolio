@@ -3,7 +3,7 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif; */
   background: #599fd9;
-  background: -webkit-linear-gradient(to right, #599fd9, #c2e59c);
+  /* background: -webkit-linear-gradient(to right, #599fd9, #c2e59c); */
   /* background: linear-gradient(to right, #599fd9, #c2e59c); */
   min-height: 100vh;
   overflow-x: hidden;
