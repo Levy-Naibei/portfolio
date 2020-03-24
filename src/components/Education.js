@@ -5,9 +5,9 @@ export default class Education extends Component {
         return (
             <div>
                 <div>
-                    <h3>2012 - 2016</h3>
-                    <h4>Jomo Kenyatta University of Agriculture and Technology (JKUAT) </h4>
-                    <h5>BSc Telecommunication and Information Eng</h5>
+                    <h3>Jomo Kenyatta University of Agriculture and Technology (JKUAT) </h3>
+                    <h4>BSc Telecommunication and Information Eng</h4>
+                    <h5>2012 - 2016</h5>
                     <div>
                         <ul class="">
                             <li>Second-class honours upper division (2:1)</li>
@@ -17,9 +17,9 @@ export default class Education extends Component {
                 </div>
 
                 <div>
-                    <h3>Aug 2019 - Nov 2019</h3>
-                    <h4>Kakamega High School</h4>
-                    <h5>Kenya Certificate of Secondary Education</h5>
+                    <h3>Kakamega High School</h3>
+                    <h4>Kenya Certificate of Secondary Education</h4>
+                    <h5>Jan 2007 - Nov 2010</h5>
                     <div>
                         <ul class="">
                             <li>Mean Grade: A-</li>
