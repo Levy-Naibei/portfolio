@@ -12,14 +12,14 @@ export default class Projects extends Component {
                     <figure className='project-container'>
                             <img src={e_store} alt='screenshot' />
                             <figcaption>
-                                Online shop in react.js
+                                <h3>Online shop in react.js</h3>
                             </figcaption>
                         </figure>
 
                         <figure className='project-container'>
                             <img src={blog} alt='screenshot' />
                             <figcaption>
-                                Python django blog app
+                                <h3>Python django blog app</h3>
                             </figcaption>
                         </figure>
                     </div>

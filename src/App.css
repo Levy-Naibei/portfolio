@@ -48,18 +48,6 @@
   }
 }
 
-.separator {
-  margin: 3rem 0;
-  border-bottom: 1px dashed #fff;
-}
-
-.text-uppercase {
-  letter-spacing: 0.1em;
-}
-
-.text-gray {
-  color: #aaa;
-}
 
 .icon {
   margin-right: 0.5rem;

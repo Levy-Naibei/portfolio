@@ -13,7 +13,13 @@ export default class Skills extends Component {
                     <li>Bootstrap</li>
                     <li>Responsive Design</li>
                     <li>Git, Github</li>
-                    <li>REST APIs</li>
+                    <li>Apache, Nginx</li>
+                    <li>Heroku</li>
+                    <li>Digital Ocean</li>
+                    <li>ORM</li>
+                    <li>Team work</li>
+                    <li>Problem Solving</li>
+                    <li>Interpersonal</li>
                 </ul>
             </div>
         )
