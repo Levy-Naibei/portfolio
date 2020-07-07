@@ -16,7 +16,7 @@ export default class Education extends Component {
                     </div>
                 </div>
 
-                <div>
+                {/* <div>
                     <h3>Kakamega High School</h3>
                     <h4>Kenya Certificate of Secondary Education</h4>
                     <h5>Jan 2007 - Nov 2010</h5>
@@ -27,7 +27,7 @@ export default class Education extends Component {
                             <li>Subjects: Math, English, German, Sciences, Geography</li>
                         </ul>
                     </div>
-                </div>
+                </div> */}
             </div>
         )
     }

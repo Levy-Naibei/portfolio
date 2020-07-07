@@ -4,8 +4,10 @@ export default class Profile extends Component {
     render() {
         return (
             <div >
-                <p className='lead'>Creative and people-oriented Software Engineer with 2+ years of experience 
-                    and proficient in software technologies relevant to the web</p>
+                <p className='lead'>
+                    Creative and people-oriented Software Engineer
+                    with experience and proficiency in production grade software
+                </p>
                 <div>
                     <p><i class="fas fa-phone-alt prof"></i> +254710311897</p>
                     <p><i class="fas fa-envelope prof"></i>levynaibei2@gmail.com</p>

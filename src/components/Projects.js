@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import blog from '../assets/blog.png';
 import e_store from '../assets/e_store.png';
+import fe from '../assets/fe.png';
 
 export default class Projects extends Component {
 
@@ -9,17 +10,31 @@ export default class Projects extends Component {
             <div>
                 <div className='row'>
                     <div className='project'>
-                    <figure className='project-container'>
+                        <figure className='project-container'>
+                            <img src={fe} alt='Farmers Edge' />
+                            <figcaption>
+                                https://farmers-edge.netlify.app/
+                            </figcaption>
+                        </figure>
+
+                        <figure className='project-container'>
+                            Jobs Portal - Alleviating unemployment
+                            <figcaption>
+                                https://coders-jobs.netlify.app/
+                            </figcaption>
+                        </figure>
+
+                        <figure className='project-container'>
                             <img src={e_store} alt='screenshot' />
                             <figcaption>
-                                <h3>Online shop in react.js</h3>
+                                https://dynamic-e-store.netlify.app/
                             </figcaption>
                         </figure>
 
                         <figure className='project-container'>
                             <img src={blog} alt='screenshot' />
                             <figcaption>
-                                <h3>Python django blog app</h3>
+                                https://techies-blog.herokuapp.com/
                             </figcaption>
                         </figure>
                     </div>
