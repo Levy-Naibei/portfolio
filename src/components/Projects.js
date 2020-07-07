@@ -25,6 +25,13 @@ export default class Projects extends Component {
                         </figure>
 
                         <figure className='project-container'>
+                            Provides advisory to society on imoact of Covid-19 infections 
+                            <figcaption>
+                                 https://github.com/Levy-Naibei/covid19-impact-estimator
+                            </figcaption>
+                        </figure>
+
+                        <figure className='project-container'>
                             <img src={e_store} alt='screenshot' />
                             <figcaption>
                                 https://dynamic-e-store.netlify.app/
