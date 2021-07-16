@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import {Switch, Route} from 'react-router-dom';
 import './App.css';
 import Sidebar from './components/Sidebar'
@@ -10,26 +10,29 @@ import Projects from './components/Projects';
 import PageNotFound from './components/PageNotFound';
 // import Social from './components/Social';
 
-class App extends Component {
-  render() {
-    return (
-      <div>
+const App = () => {
 
-          <Sidebar />
-            
-        <div className='page-content p-5' id='content'>
-          <Switch>
-            <Route exact path='/' component={Profile}/>
-            <Route path='/experience' component={Experience}/>
-            <Route path='/education' component={Education}/>
-            <Route path='/skills' component={Skills}/>
-            <Route path='/projects' component={Projects}/>
-            <Route component={PageNotFound}/>
-          </Switch> 
-        </div>
-      </div>
-    );
+  const toggle = () => {
+    const el = document.getElementById('sidebar');
+    el.classList.toggle('#sidebar')
   }
+ 
+  return (
+    <div>
+      <Sidebar />
+      <button onclick={toggle} />
+      <div className='page-content p-5' id='content'>
+        <Switch>
+          <Route exact path='/' component={Profile}/>
+          <Route path='/experience' component={Experience}/>
+          <Route path='/education' component={Education}/>
+          <Route path='/skills' component={Skills}/>
+          <Route path='/projects' component={Projects}/>
+          <Route component={PageNotFound}/>
+        </Switch> 
+      </div>
+    </div>
+  );
 }
 
 export default App
