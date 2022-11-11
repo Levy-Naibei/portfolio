@@ -30,9 +30,9 @@ const AboutCard = () => {
           </ul>
 
           <p style={{ color: "#46a6fa" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Endeavour to build things that are game changers"{" "}
           </p>
-          <footer className="blockquote-footer">Levy</footer>
+          <footer className="blockquote-footer">@levynaibei</footer>
         </blockquote>
       </Card.Body>
     </Card>
