@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCard.jsx";
 import Particle from "../Particle";
 import nyt_books from "../../assets/projects/nyt_books_api.png";
-import blog from "../../assets/projects/blog_tech_pro.png";
+// import blog from "../../assets/projects/blog_tech_pro.png";
 import e_store from "../../assets/projects/e-store_pro.png";
 import farmers from "../../assets/projects/farmers_pro.png";
-import learnfree from "../../assets/projects/learnfree_pro.png";
+import car_rent from "../../assets/projects/car_landing.png";
 import tv_maze from "../../assets/projects/tv_maze.png";
 
 function ProjectList() {
@@ -34,16 +34,16 @@ function ProjectList() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={blog}
+              imgPath={car_rent}
               isBlog={false}
-              title="Techies Chat Room"
-              description="Express your knowledge and expertise in matters technology. Let the world learn from you!"
-              // ghLink="https://github.com/Levy-Naibei/django_blog"
-              demoLink="https://techies-blog.herokuapp.com"
+              title="Car Rent App"
+              description="Users can find, book or rent a car quickly and easily. Built with React, Nextjs, Typescript and Tailwind CSS"
+              ghLink="https://github.com/Levy-Naibei/care_hire"
+              // demoLink="https://techies-blog.herokuapp.com"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={learnfree}
               isBlog={false}
@@ -52,7 +52,7 @@ function ProjectList() {
               ghLink="https://github.com/MLH-Fellowship/LearnForFree"
               demoLink="https://learnforfree.herokuapp.com"              
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
