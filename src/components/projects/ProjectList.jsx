@@ -39,7 +39,7 @@ function ProjectList() {
               title="Car Rent App"
               description="Users can find, book or rent a car quickly and easily. Built with React, Nextjs, Typescript and Tailwind CSS"
               ghLink="https://github.com/Levy-Naibei/care_hire"
-              // demoLink="https://techies-blog.herokuapp.com"
+              demoLink="https://car-hire-app.vercel.app/"
             />
           </Col>
 
