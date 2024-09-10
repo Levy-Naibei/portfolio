@@ -40,7 +40,7 @@ function ProjectList() {
               imgPath={car_rent}
               isBlog={false}
               title="Car Rent App"
-              description="Users can find, book or rent a car quickly and easily. Built with React, Nextjs, Typescript and Tailwind CSS, Google Firebase"
+              description="Users can find, book or rent a car quickly and easily. Built with React, Nextjs, Typescript and TailwindCSS, Google Firebase"
               ghLink="https://github.com/Levy-Naibei/care_hire"
               // demoLink="https://car-hire-app.vercel.app/"
             />
@@ -52,7 +52,7 @@ function ProjectList() {
               // isBlog={false}
               isGithub={true}
               title="Content Delivery App"
-              description="Engage your customers while working from anywhere. Collaborate smartly, track results. Tech-stack: React, DjangoRest, Tailwind CSS, PostgeSQL, AWS"
+              description="Engage your customers while working from anywhere. Collaborate smartly, track results. Tech-stack: React, DjangoRest, TailwindCSS, PostgeSQL, AWS"
             />
           </Col>
 
@@ -72,7 +72,7 @@ function ProjectList() {
               isBlog={false}
               title="Learn For Free!"
               description="Access tons of free courses in whatever field of learning form FutureLearn, Coursera, edX, etc.
-              App built with React, Bootstrap, DjangoRest and more"
+              App built with CSS, Bootstrap, Django and more"
               ghLink="https://github.com/MLH-Fellowship/LearnForFree"
             />
           </Col>
