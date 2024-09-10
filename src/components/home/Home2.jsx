@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
+  // AiOutlineTwitter,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -28,7 +28,7 @@ const Home2 = () => {
               <br />
               <br />
               I apply my passion for developing products
-              primarily with <b className="purple">React.js</b> and
+              primarily with <b className="purple">React.js, Django-Rest</b> and
               <i>
                 <b className="purple">
                   {" "}
@@ -64,7 +64,7 @@ const Home2 = () => {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://twitter.com/levynaibei"
                   target="_blank"
@@ -73,7 +73,7 @@ const Home2 = () => {
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/levy-naibei/"

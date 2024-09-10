@@ -14,13 +14,13 @@ const Home = () => {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
+                Hi there!{" "}
                 <span className="wave" role="img" aria-labelledby="wave"> 👋🏾 </span>
               </h1>
 
-              <h1 className="heading-name">
+              <h2 className="heading-name">
                 I'm <strong className="main-name"> Levy Naibei</strong>
-              </h1>
+              </h2>
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
