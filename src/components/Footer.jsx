@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
+  // AiOutlineTwitter,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -30,7 +30,7 @@ const Footer = () => {
                 <AiFillGithub />
               </a>
             </li>
-            <li className="social-icons">
+            {/* <li className="social-icons">
               <a
                 href="https://twitter.com/levynaibei"
                 style={{ color: "white" }}
@@ -39,10 +39,10 @@ const Footer = () => {
               >
                 <AiOutlineTwitter />
               </a>
-            </li>
+            </li> */}
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/levy-naibei-4a3b74ba/"
+                href="https://www.linkedin.com/in/levynaibei/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
