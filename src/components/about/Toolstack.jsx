@@ -11,7 +11,8 @@ import {
   SiTestinglibrary,
   SiPytest,
   SiJest,
-  SiWebpack
+  SiWebpack,
+  SiCypress,
 } from "react-icons/si";
 import { FaDocker, FaGithub } from "react-icons/fa";
 import { DiNginx, DiGit } from "react-icons/di";
@@ -33,6 +34,9 @@ const Toolstack = () => {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPytest />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCypress />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
