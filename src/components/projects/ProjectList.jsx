@@ -30,7 +30,7 @@ function ProjectList() {
               imgPath={rEstate}
               isBlog={false}
               title="Real Estate App"
-              description="Buy, sell or rent with us. The one stop shop for matters properties. Built with React, Redux, DjangoRest, Bootstrap, PostgeSQL, Nginx, Docker and more"
+              description="Buy, sell or rent with us. The one stop shop for matters properties. Built with React, Redux, DjangoRest, Bootstrap, PostgreSQL, Nginx, Docker and more"
               ghLink="https://github.com/Levy-Naibei/django-real-estate-app"
             />
           </Col>
@@ -40,7 +40,7 @@ function ProjectList() {
               imgPath={car_rent}
               isBlog={false}
               title="Car Rent App"
-              description="Users can find, book or rent a car quickly and easily. Built with React, Nextjs, Typescript and TailwindCSS, Google Firebase"
+              description="Users can find, book or rent a car quickly and easily. Built with React, Nextjs, Typescript, TailwindCSS, Google Firebase"
               ghLink="https://github.com/Levy-Naibei/care_hire"
               // demoLink="https://car-hire-app.vercel.app/"
             />
@@ -52,7 +52,7 @@ function ProjectList() {
               // isBlog={false}
               isGithub={true}
               title="Content Delivery App"
-              description="Engage your customers while working from anywhere. Collaborate smartly, track results. Tech-stack: React, DjangoRest, TailwindCSS, PostgeSQL, AWS"
+              description="Engage your customers while working from anywhere. Collaborate smartly, track results. Tech-stack: React, DjangoRest, TailwindCSS, PostgreSQL, AWS"
             />
           </Col>
 
@@ -82,7 +82,7 @@ function ProjectList() {
               imgPath={nyt_books}
               isBlog={false}
               title="New York Times Books"
-              description="This app enables users access best selling books of all times. Courtesy of New York Times Books API"
+              description="This app enables users access best selling books of all times. Courtesy of New York Times Books API. Tech-stack: React, CSS, Bootstrap"
               ghLink="https://github.com/Levy-Naibei/new-york-times-API"
               // demoLink="#"
             />
@@ -93,7 +93,7 @@ function ProjectList() {
               imgPath={tv_maze}
               isBlog={false}
               title="TV shows"
-              description="This app enables the users to manage the shows that they have watched, find new ones and also rate the shows they have loved. Courtesy of TV MAZE REST API"
+              description="This app enables the users to manage the shows that they have watched, find new ones and also rate the shows they have loved. Courtesy of TV MAZE REST API. Tech-stack: React, SCSS, AntDesign, Node, GraphQL, MongoDB"
               ghLink="https://github.com/Levy-Naibei/digital-vision"
               // demoLink=""
             />
@@ -104,7 +104,7 @@ function ProjectList() {
               imgPath={farmers}
               isBlog={false}
               title="Farmers Edge"
-              description="Addressing Sustainable Development Goal(SDG) No. 2, this app enables comercial farmers in Africa to double their income by increasing their farm produce"
+              description="Addressing Sustainable Development Goal(SDG) No. 2, this app enables comercial farmers in Africa to double their income by increasing their farm produce. Tech-stack: React, CSS, Bootstrap, Django-Rest, Netlify"
               ghLink="https://github.com/BuildForSDG/farmers-edge-client"
               demoLink="https://farmers-edge.netlify.app/"
             />
@@ -115,7 +115,7 @@ function ProjectList() {
               imgPath={e_store}
               isBlog={false}
               title="Shop with Us"
-              description="At the comfort of your house, buy authentic goods from our online store"
+              description="At the comfort of your house, buy authentic goods from our online store. Tech-stack: React, CSS, Bootstrap, Netlify"
               // ghLink=""
               demoLink="https://dynamic-e-store.netlify.app/"
             />
