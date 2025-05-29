@@ -24,7 +24,7 @@ const Home2 = () => {
               <br />
               <br />
               I delight in solving problems using &nbsp;
-              <i> <b className="purple">Web Technologies </b> </i>
+              <i><b className="purple">Web Technologies </b> </i>
               <br />
               <br />
               I apply my passion for developing products
@@ -37,8 +37,10 @@ const Home2 = () => {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> GraphQL, Node.js and Next.js</b>
-              </i>
+                <b className="purple"> Next.js and Node.js</b>
+              </i><br/>
+              I develop API using <i><b className="purple"> REST and GraphQL</b></i> paradigms <br/>
+              I mostly use <i><b className="purple"> PostgreSQL, MongoDB, MySQL, Redis</b></i> databases  
             </p>
           </Col>
           <Col md={4} className="myAvtar">
