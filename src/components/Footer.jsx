@@ -12,13 +12,10 @@ const Footer = () => {
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="4" className="footer-copywright">
-          <h3>Web app crafted by Levy Naibei </h3>
-        </Col>
-        <Col md="4" className="footer-copywright">
+        <Col md="6" className="footer-copywright">
           <h3>Copyright © {year} levynaibei</h3>
         </Col>
-        <Col md="4" className="footer-body">
+        <Col md="6" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
@@ -30,16 +27,6 @@ const Footer = () => {
                 <AiFillGithub />
               </a>
             </li>
-            {/* <li className="social-icons">
-              <a
-                href="https://twitter.com/levynaibei"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li> */}
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/levynaibei/"
